@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вёрстка на флексбоксе с семантикой</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" -->
+</head>
+
+<body>
+	<header>
+			<!-- шапка с навигацией, фон серый -->
+			<nav class="nav">
+				<ul class="menu-text">
+					<li class="menu-li"><a class="menu-link" href="">HOME</a></li>
+					<li class="menu-li"><a class="menu-link" href="">PORTFOLIO</a></li>
+					<li class="menu-li"><a class="menu-link" href="">ABOUT US</a></li>
+					<li class="menu-li"><a class="menu-link" href="">CONTACT</a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<main>
+		<!-- Первый этаж -->
+		<div class="block-1">
+
+			<!-- блок sec - с текстом, видео и кнопкой -->
+			<div class="sec">
+
+				<!-- Информация -->
+				<div class="left-text">
+					<h1 class="h1-block1">our strong<br>organisation</h1>
+					<p class="p-block1">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
+					<a class="button-block1" href="">Contact Us</a>
+				</div>
+
+				<!-- Видео -->
+				<div>
+					<a class="video-block1-link" href="">
+						<img class="video-block1" src="images/video.jpg" >
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Второй блок СЕРВИС - белый фон -->
+		<section class="block2-service">
+
+			<!-- Левый блок ИНФОРМАЦИЯ - белый фон -->
+			<div class="service-info">
+				<h2 class="service-h2">do you know we can provide for you ?</h2>
+				<p class="service-p">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+				<a class="button-block1 button-service" href="">Learn More</a>
+			</div>
+
+			<!-- Правый блок из 4-х блоков - белый фон -->
+			<div class="service-block">
+				<div class="service-box">
+					<h3 class="box-mini box-mini-manag">Management</h3>
+					<p class="box-text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+				</div>
+				<div class="service-box">
+					<h3 class="box-mini box-mini-ui">UI /UX Design</h3>
+					<p class="box-text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+				</div>
+				<div class="service-box">
+					<h3 class="box-mini box-mini-logo">Logo / Branding</h3>
+					<p class="box-text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+				</div>
+				<div class="service-box">
+					<h3 class="box-mini box-mini-anim">Animation</h3>
+					<p class="box-text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Третий блок ПРОДУКТ - белый фон -->
+		<section class="block3-products">
+
+			<!-- Информация -->
+			<div class="products-info">
+				<h2 class="products-h2">feature products</h2>
+				<p class="products-p">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+				<hr class="red-line red-line-products">
+
+			</div>
+
+			<!-- Фильтры-->
+			<ul class="products-filter">
+				<li class="products-box">
+					<a class="products-link" id="products-link-red" href="">all</a>
+				</li>
+				<li class="products-box">
+					<a class="products-link" href="">print template</a>
+				</li>
+				<li class="products-box">
+					<a class="products-link" href="">web template</a>
+				</li>
+				<li class="products-box">
+					<a class="products-link" href="">user interface</a>
+				</li>
+				<li class="products-box">
+					<a class="products-link" href="">mock-up</a>
+				</li>
+			</ul>
+
+			<!-- Картинки-->
+			<div class="products-image-block">
+				<img class="products-image" src="images/sample-1.jpg">
+				<img class="products-image" src="images/sample-2.jpg">
+				<img class="products-image" src="images/sample-3.jpg">
+				<img class="products-image" src="images/sample-4.jpg">
+				<img class="products-image" src="images/sample-5.jpg">
+				<img class="products-image" src="images/sample-6.jpg">
+				<img class="products-image" src="images/sample-7.jpg">
+				<img class="products-image" src="images/sample-8.jpg">
+			</div>
+		</section>
+
+
+		<!-- Четвертый блок КОМАНДА - белый фон -->
+		<section class="block4-team">
+
+			<!-- Информация -->
+			<div class="team-info">
+				<h2 class="team-h2">Meet our team</h2>
+				<p class="team-p">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+				<hr class="red-line red-line-team">
+			</div>
+
+			<!-- Команда -->
+			<div class="team-block">
+
+				<!-- Слева Марк -->
+				<img class="team-main-foto" src="images/Mark.jpg" alt="MARK WAUGH">
+				
+				<!-- Справа инф про сотрудника и остальные фото -->
+				<div class="team-block-right">
+
+					<!-- Справа инф-я про сотрудника -->
+					<div class="team-main-info">
+						<h3 class="team-main-h3">mark waugh</h3>
+						<p class="team-main-p">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+						<ul class="team-links">
+							<li><a class="team-link" href="">Facebook</a></li>
+							<li><a class="team-link" href="">Dribble</a></li>
+							<li><a class="team-link" href="">Behance</a></li>
+							<li><a class="team-link" href="">Twiter</a></li>
+						</ul>
+
+					</div>
+
+					<div class="team-block-photo">
+						<div class="team-box-photo">
+							<img class="team-girl-foto" src="images/Girl.jpg" alt="SOKINA JUE">
+							<h3 class="team-girl-name">sokina jue</h3>
+						</div>
+
+						<div class="team-box-photo">
+							<img class="team-girl-foto" src="images/Girl.jpg" alt="SOKINA JUE">
+							<h3 class="team-girl-name">sokina jue</h3>
+						</div>
+						
+						<div class="team-box-photo">
+							<img class="team-girl-foto" src="images/Girl.jpg" alt="SOKINA JUE">
+							<h3 class="team-girl-name">sokina jue</h3>
+						</div>
+						
+						<div class="team-box-photo">
+							<img class="team-girl-foto" src="images/Girl.jpg" alt="SOKINA JUE">
+							<h3 class="team-girl-name">sokina jue</h3>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+		</section>
+
+
+		<!-- Пятый блок ПОДПИСКА (е-мэйл) - черный фон -->
+		<section class="block5-subscribe">
+			<div class="subscribe-info">
+				<h2 class="subscribe-h2">Design tips, tricks, and freebies. Delivered weekly.</h2>
+				<p class="subscribe-p">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+			</div>
+
+			<div class="subscribe-form">
+				<div class="subscribe-input">Email Address...</div>
+				<a class="subscribe-button" href="">Subscribe</a>
+					
+			</div>
+		</section>
+
+
+		<!-- Шестой блок Отправить сообщение (Имя, е-мэйл, сообщение, кнопка, контакты) - белый фон -->
+		<section class="block6-message">
+
+			<!-- Левая часть (пусто) - белый фон-->
+			<div class="box-left"></div>
+			
+			<!-- Левая часть (инфо) - белый фон-->
+			<div class="message-block-left">	
+				<div class="message-info">
+					<h2 class="message-h2">get in touch</h2>
+					<p class="message-p">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+					<hr class="red-line red-line-message">
+				</div>
+			
+				<!-- Левая часть (имя, емэйл, сообщ, кнопка) - белый фон-->
+				<div class="message-info-name">
+					<div class="message-left">
+						<div class="message-input message-name">Name</div>
+						<div class="message-input message-email">Your Mail</div>
+						<div class="message-input message-text">Type your message</div>
+						<a class="message-button" href="">Send message</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Правая часть (контакты) - черный фон-->
+			<div class="contact">
+				<h2 class="contact-h2">contact info</h2>
+				<p class="contact-p">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+				<p class="contact-p">redwan@deviserweb.com</p>
+				<p class="contact-p">(+88) 017 617 46373</p>
+			</div>
+
+			<!-- Правая часть (пусто) - черный фон-->
+			<div class="contact-right"></div>
+		</section>
+
+
+		<!-- Футер, серый -->
+		<footer>
+
+			<!-- <Блок с текстом и иконками -->
+			<div class="footer-block">
+				<p class="text-footer">© Copyright @Junaed 2016, All rights reserved.</p>
+				
+				<!-- Иконки соц сетей -->
+				<div>
+					<a class="footer-link" href="">
+						<img src="images/Twitter.svg"></a>
+					<a class="footer-link" href="">
+						<img src="images/In.svg"></a>
+					<a class="footer-link" href="">
+						<img src="images/Google.svg"></a>
+					<a class="footer-link" href="">
+						<img src="images/Facebook.svg"></a>
+				</div>
+			</div>
+		</footer>
+
+	</main>
+</body>
+
+</html>
